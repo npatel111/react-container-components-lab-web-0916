@@ -10,8 +10,8 @@ const SearchableMovieReviewsContainer = require(
 
 ReactDOM.render(
   <div className="app">
-    <LatestMovieReviewsContainer />
     <SearchableMovieReviewsContainer />
+    <LatestMovieReviewsContainer />
   </div>,
   document.getElementById('main')
 );
